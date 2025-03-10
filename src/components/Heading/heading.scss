@@ -1,0 +1,29 @@
+@import '../../styles/design-tokens/colors/index.scss';
+@import '../../styles/design-tokens/fonts/index.scss';
+
+h1 {
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: var(--font-size-42);
+  line-height: 63px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+h2 {
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: var(--font-size-32);
+  line-height: 48px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+p {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: var(--font-size-24);
+  line-height: 36px;
+  text-align: center;
+  color: #717171;
+}
